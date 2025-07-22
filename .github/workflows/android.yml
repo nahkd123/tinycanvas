@@ -27,3 +27,7 @@ jobs:
       with:
         name: debug-apk-artifact
         path: app/build/outputs/apk/debug/
+    - uses: actions/upload-artifact@v4
+      with:
+        name: release-apk-artifact
+        path: app/build/outputs/apk/release/
